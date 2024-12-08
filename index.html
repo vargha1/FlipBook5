@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Almubdieuntech</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="text/javascript" src="./jquery.min.js"></script>
+  <script type="text/javascript" src="./jquery-ui.min.js"></script>
+  <script type="text/javascript" src="./turn.js"></script>
+</head>
+
+<body class="flex items-center h-[100svh] relative">
+  <p class="text-red-600 text-2xl absolute top-[calc(50%-265px)] right-5 md:top-5 md:right-[6rem] z-50">Pull from
+    Here!
+  </p>
+  <img src="images/arrow.png"
+    class="absolute top-[calc(50%-225px)] right-5 w-[32px] md:w-[64px] md:rotate-180 md:top-0 z-50 pointer-events-none invisible"
+    alt="arrow" id="arrow">
+  <div id="magazine" class="mx-5">
+    <div class="flex flex-col justify-center items-center relative">
+      <img src="images/1.png" class="w-fit h-[384px] md:h-full image" alt="" id="image1">
+    </div>
+    <div class="flex flex-col justify-center items-center relative">
+      <a href="https://floor3.vercel.app/" target="_blank" class="absolute left-[7%] top-1/2 -translate-y-1/2 w-[45px] h-[45px]"></a>
+      <a href="https://floor1.vercel.app/" target="_blank" class="absolute left-[35%] top-1/2 -translate-y-1/2 w-[45px] h-[45px]"></a>
+      <a href="https://floor2.vercel.app/" target="_blank" class="absolute left-[65%] top-1/2 -translate-y-1/2 w-[45px] h-[45px]"></a>
+      <img src="images/2.png" class="w-fit h-[384px] md:h-full" alt="" id="image2">
+    </div>
+    <div class="flex flex-col justify-center items-center relative">
+      <img src="images/3.png" class="w-fit h-[384px] md:h-full" alt="" id="image3">
+    </div>
+    <div class="flex flex-col justify-center items-center relative">
+      <img src="images/4.png" class="w-fit h-[384px] md:h-full" alt="" id="image4">
+    </div>
+    <!-- <div class="flex flex-col justify-center items-center relative">
+      <img src="images/4.png" class="w-fit h-[384px] md:h-full" alt="" id="image5">
+    </div>
+    <div class="flex flex-col justify-center items-center relative">
+      <img src="images/6.png" class="w-fit h-[384px] md:h-full" alt="" id="image6">
+    </div> -->
+    
+  </div>
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
